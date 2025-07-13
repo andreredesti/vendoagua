@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="stylePages.css">
+    <title>Formulário de pedidos e vendas</title>
+</head>
+<body>
+    <header>
+          <nav class="menu">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Contato</a></li>
+                     <li><a href="#">Restrito</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+    <h1>Aqui ficará a página de vendas</h1>
+
+    <h2>Formulário de Contato</h2>
+
+  <form action="#" method="post">
+    <label for="nome">1. Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="email">2. E-mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="telefone">3. Telefone:</label>
+    <input type="tel" id="telefone" name="telefone">
+
+    <label for="senha">4. Senha:</label>
+    <input type="password" id="senha" name="senha" required>
+
+    <label for="genero">5. Gênero:</label>
+    <select id="genero" name="genero">
+      <option value="">Selecione</option>
+      <option value="masculino">Masculino</option>
+      <option value="feminino">Feminino</option>
+      <option value="outro">Outro</option>
+    </select>
+
+    <label for="mensagem">6. Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+   
+</body>
+</html>
