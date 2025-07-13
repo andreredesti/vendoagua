@@ -1,10 +1,20 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-image: url(./images/img.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
+h1{
+    text-align: center;
+}
 .menu {
-  background-color: #333;
+  /*background-color: #333;*/
+    background: linear-gradient(90deg,rgba(15, 85, 112, 1) 0%, rgba(18, 224, 169, 1) 26%, rgba(87, 199, 133, 1) 50%, rgba(83, 178, 237, 1) 51%, rgba(103, 113, 156, 1) 90%, rgba(108, 150, 100, 1) 100%, rgba(204, 203, 87, 1) 100%);
 }
 
 .menu ul {
@@ -23,9 +33,11 @@ body {
   padding: 15px 20px;
   text-decoration: none;
   color: white;
+  font-weight: bold;
   transition: background 0.3s;
 }
 
 .menu a:hover {
-  background-color: #575757;
+  background-color: #1bbb5e;
+  border-radius: 10px;
 }
