@@ -2,7 +2,7 @@
         const data = jwt_decode(response.credential)
            // console.log("Encoded JWT ID token: " + response.credential);
             console.log(data)
-
+/*
             fullName.textContent = data.name
             sub.textContent = data.sub
             given_name.textContent = data.given_name
@@ -10,8 +10,12 @@
             email.textContent = data.email
             verifiedEmail.textContent = data.email_verified
             email.textContent = data.email
-            picture.setAttribute("src", data.picture)
+            picture.setAttribute("src", data.picture)*//
+
+            alert("Fez login")
+              window.location.href = 'cadastro.html'
         }
+            // alert("Fez login")
 
       window.onload = function () {
         google.accounts.id.initialize({
