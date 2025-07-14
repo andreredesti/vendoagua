@@ -3,7 +3,7 @@
     }
 
     form {
-      max-width: 400px;
+      max-width: 800px;
       margin: auto;
     }
 
@@ -30,4 +30,65 @@
 
     button:hover {
       background-color: #555;
+    }
+
+    /*Estilo da página vendas*/
+
+    #paginaVendas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       /*max-width: 800px;
+        margin:0 auto;*/
+        border: 2px solid red;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: large;
+        font-weight: bold;
+    }
+
+    .divisaoporlinhas {
+        display: flex;
+        
+    }
+
+    .produto {
+        border: 1px solid white;
+        padding: 20px;
+        margin: 10px;      
+        border-radius: 10px;
+    }
+
+    .produto img {
+        border-radius: 10px;
+        border: 1px solid blue;
+        width: 80px;
+        height: 80px;
+    }
+
+    .labels {
+        display: flex;
+        justify-content: center;
+    }
+    .label-img{
+       /* background-color: red;*/
+        display: flex;
+    }
+
+    .numero {
+        text-align: center;
+    }
+
+    .input-number {
+        margin-left: 10px;
+        width: 50px;
+    }
+
+    .checkmark {
+        align-self: center;
+        
     }
