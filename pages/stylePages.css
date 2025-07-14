@@ -98,3 +98,15 @@
        margin: 15px auto;
        width: 200px;
     }
+
+    /*Página de Login*/
+
+    /*Aliamento do botão de login do google*/
+
+    #buttonDiv{
+      display: flex;
+      justify-content: center;
+      /*justify-self: center;*/
+      margin: 100px auto 0;
+      width: 200px;
+    }

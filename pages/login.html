@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
-    <title>Acesso a área restrita</title>
+    <link rel="stylesheet" href="stylePages.css">
+    <title>Google Login</title>
+    <script src="https://accounts.google.com/gsi/client" async></script>
+    <script src="https://unpkg.com/jwt-decode/build/jwt-decode.js"></script>
+    <script src="loginGoogle.js"></script>
+
 </head>
 <body>
     <header>
@@ -21,7 +26,48 @@
     </header>
     <h1>Acesso ao sistema de vendas e estoque</h1>
 
-    <p>tesstattando</p>
-   
+     <!--script>
+      function handleCredentialResponse(response) {
+        console.log("Encoded JWT ID token: " + response.credential);
+      }
+      window.onload = function () {
+        google.accounts.id.initialize({
+          client_id: "YOUR_GOOGLE_CLIENT_ID
+
+"
+          callback: handleCredentialResponse
+        });
+        google.accounts.id.renderButton(
+          document.getElementById("buttonDiv"),
+          { theme: "outline", size: "large" }  // customization attributes
+        );
+        google.accounts.id.prompt(); // also display the One Tap dialog
+      }
+    </script-->
+    <div id="buttonDiv">
+        <p id="fullName"></p>
+         <p id="sub"></p>
+         <p id="given_name"></p>
+         <p id="family_name"></p>
+         <p id="email"></p>
+         <p id="verifiedEmail"></p>
+         <img id="picture"/>
+    </div>
+
+    <!--
+    
+
+     <form id="formulario">
+    <label>Nome:</label><br>
+    <input type="text" name="nome" required><br><br>
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+    <label>Mensagem:</label><br>
+    <textarea name="mensagem" required></textarea><br><br>
+    <button type="submit">Enviar</button>
+  </form>
+-->
+
+
 </body>
 </html>
