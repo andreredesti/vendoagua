@@ -41,6 +41,7 @@
        /*max-width: 800px;
         margin:0 auto;*/
         border: 2px solid red;
+        height: 80vh;
     }
 
     .content {
@@ -53,7 +54,7 @@
 
     .divisaoporlinhas {
         display: flex;
-        
+        justify-content: center;
     }
 
     .produto {
@@ -91,4 +92,9 @@
     .checkmark {
         align-self: center;
         
+    }
+
+    button{
+       margin: 15px auto;
+       width: 200px;
     }
